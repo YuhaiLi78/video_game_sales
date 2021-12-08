@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '%03-^!d68$%ask^l%7zzpil!uzy0671et*ivhcxz+9&9zw=@*^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['video-games-sales.herokuapp.com' ,'127.0.0.1']
 
 
 # Application definition
